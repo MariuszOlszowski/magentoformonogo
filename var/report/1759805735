@@ -1,0 +1,8 @@
+a:5:{i:0;s:33:"String could not be parsed as XML";i:1;s:852:"#0 E:\Programy\wamp\www\m\app\code\local\Monogo\Currency\controllers\IndexController.php(33): SimpleXMLElement->__construct('')
+#1 E:\Programy\wamp\www\m\app\code\core\Mage\Core\Controller\Varien\Action.php(418): Monogo_Currency_IndexController->indexAction()
+#2 E:\Programy\wamp\www\m\app\code\core\Mage\Core\Controller\Varien\Router\Standard.php(254): Mage_Core_Controller_Varien_Action->dispatch('index')
+#3 E:\Programy\wamp\www\m\app\code\core\Mage\Core\Controller\Varien\Front.php(172): Mage_Core_Controller_Varien_Router_Standard->match(Object(Mage_Core_Controller_Request_Http))
+#4 E:\Programy\wamp\www\m\app\code\core\Mage\Core\Model\App.php(365): Mage_Core_Controller_Varien_Front->dispatch()
+#5 E:\Programy\wamp\www\m\app\Mage.php(684): Mage_Core_Model_App->run(Array)
+#6 E:\Programy\wamp\www\m\index.php(83): Mage::run('', 'store')
+#7 {main}";s:3:"url";s:17:"/m/currency/index";s:11:"script_name";s:12:"/m/index.php";s:4:"skin";s:7:"default";}

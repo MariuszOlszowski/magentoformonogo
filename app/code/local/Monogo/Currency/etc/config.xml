@@ -1,0 +1,19 @@
+<?xml version="1.0"?>
+<config>
+    <modules>
+        <Ffay_Test>
+            <version>1.0.0</version>
+        </Ffay_Test>
+    </modules>
+    <frontend>       
+        <routers>
+            <routeurfrontend>
+                <use>standard</use>
+                <args>
+                    <module>Monogo_Currency</module>
+                    <frontName>currency</frontName>
+                </args>
+            </routeurfrontend>
+        </routers>    
+    </frontend>
+</config>

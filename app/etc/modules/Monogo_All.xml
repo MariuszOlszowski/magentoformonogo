@@ -1,0 +1,9 @@
+<?xml version="1.0"?>
+<config>
+    <modules>
+        <Monogo_Currency>
+            <active>true</active>
+            <codePool>local</codePool>
+        </Monogo_Currency>
+    </modules>
+</config>
