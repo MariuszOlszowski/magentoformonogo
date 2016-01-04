@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Monogo Currency</title>
+    <style type="text/css">
+        body {
+            margin: 0;
+            background: #eee;
+        }
+        
+        form {
+            width: 400px;
+            margin: 40px auto;
+            height: 150px;
+            background: #fff;
+        }
+        
+        form input {
+            padding: 6px;
+            border: 0;
+            background: #f2f2f2;
+            margin: 6px;
+            width: 90%;
+        }
+        
+        .box {
+            padding: 5px;
+            text-align: center;
+            border: 1px dashed #bbb;
+        }
+    </style>
+</head>
+<body>
+    <form action method="POST">
+        <input type="Text" name="Currency" placeholder="Podaj wartość USD" />
+        <input type="submit" value="Wyślij" />
+        
+        <?php if( strlen( $this->_layout->getBlock('content')->getText() ) ) { ?>
+            <div class="box">
+                <?php echo $this->_layout->getBlock('content')->getText(); ?>
+            </div>    
+        <?php } ?>
+    </form>
+</body>
+</html>

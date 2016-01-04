@@ -1,0 +1,5 @@
+<layout version="0.1.0">
+    <default>
+        <block type="page/html" name="root" output="toHtml" template="Monogo/Currency/index.phtml" />
+    </default>
+</layout>

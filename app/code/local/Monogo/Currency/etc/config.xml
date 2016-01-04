@@ -1,9 +1,9 @@
 <?xml version="1.0"?>
 <config>
     <modules>
-        <Ffay_Test>
+        <Monogo_Currency>
             <version>1.0.0</version>
-        </Ffay_Test>
+        </Monogo_Currency>
     </modules>
     <frontend>       
         <routers>
@@ -14,6 +14,20 @@
                     <frontName>currency</frontName>
                 </args>
             </routeurfrontend>
-        </routers>    
+        </routers>   
+        <layout>
+            <updates>
+                <currency>
+                    <file>currency.xml</file>
+                </currency>
+            </updates>
+        </layout> 
     </frontend>
+    <global>
+        <models>
+            <Monogo_Currency>
+                <class>Monogo_Currency_Model</class>
+            </Monogo_Currency>
+        </models>
+    </global>
 </config>

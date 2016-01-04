@@ -1,0 +1,16 @@
+a:5:{i:0;s:65:"Invalid method Monogo_Currency_Model_Post::loadLayout(Array
+(
+)
+)";i:1;s:1409:"#0 E:\Programy\wamp\www\m\app\code\local\Monogo\Currency\Model\Post.php(6): Varien_Object->__call('loadLayout', Array)
+#1 E:\Programy\wamp\www\m\app\code\local\Monogo\Currency\Model\Post.php(6): Monogo_Currency_Model_Post->loadLayout()
+#2 E:\Programy\wamp\www\m\lib\Varien\Object.php(112): Monogo_Currency_Model_Post->_construct()
+#3 E:\Programy\wamp\www\m\app\code\core\Mage\Core\Model\Config.php(1348): Varien_Object->__construct(Array)
+#4 E:\Programy\wamp\www\m\app\Mage.php(463): Mage_Core_Model_Config->getModelInstance('Monogo_Currency...', Array)
+#5 E:\Programy\wamp\www\m\app\code\local\Monogo\Currency\Controllers\IndexController.php(7): Mage::getModel('Monogo_Currency...')
+#6 E:\Programy\wamp\www\m\app\code\core\Mage\Core\Controller\Varien\Action.php(418): Monogo_Currency_IndexController->postAction()
+#7 E:\Programy\wamp\www\m\app\code\core\Mage\Core\Controller\Varien\Router\Standard.php(254): Mage_Core_Controller_Varien_Action->dispatch('post')
+#8 E:\Programy\wamp\www\m\app\code\core\Mage\Core\Controller\Varien\Front.php(172): Mage_Core_Controller_Varien_Router_Standard->match(Object(Mage_Core_Controller_Request_Http))
+#9 E:\Programy\wamp\www\m\app\code\core\Mage\Core\Model\App.php(365): Mage_Core_Controller_Varien_Front->dispatch()
+#10 E:\Programy\wamp\www\m\app\Mage.php(684): Mage_Core_Model_App->run(Array)
+#11 E:\Programy\wamp\www\m\index.php(83): Mage::run('', 'store')
+#12 {main}";s:3:"url";s:22:"/m/currency/index/post";s:11:"script_name";s:12:"/m/index.php";s:4:"skin";s:7:"default";}
